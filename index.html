@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Dictionary</title>
+
+    <!-- bootstrap cdn link  -->
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <!-- fontawesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- custom css link  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="develop">Developed By <span>Nay Thu Soe.</span></div>
+   <div class="mainContainer">
+     <!-- header section start  -->
+     <header class="header">
+
+        <section>
+            <div class="logo"><span>အိမ်မက် </span>Dictionary</div>
+            <div class="colorContainer">
+                <div class="color1"></div>
+                <div class="color2"></div>
+                <div class="color3"></div>
+            </div>
+        </section>
+
+    </header>
+    <!-- header section end  -->
+
+    <div class="previousButton">
+        <i class="fa-solid fa-arrow-left"></i>
+    </div>
+
+    <!-- inputContainer Start  -->
+    <section class="inputContainer" id="0">
+        
+        <h6>မြင်မက်ခဲ့သောအိမ်မက်ထဲမှအဓိက <span>ဇာတ်ကောင်များ</span> (သို့) <span>အရာဝတ္ထုများ</span> ကိုမြန်မာစာလုံးပေါင်းဖြင့်အောက်ပါအကွက်လေးထဲထည့်ပါ။</h6>
+
+        <a href="#" class="byalpha">အက္ခရာစဉ်ဖြင့်ရှာရန်</a>
+
+        <div class="input-group">
+            <input type="text" class="form-control inputText" placeholder="ကခ...">
+            <a href="#" class="searchbtn btn">ရှာရန်</a>
+        </div>
+
+        <ul class="list-group inputList">
+            
+        </ul>
+            
+    </section>
+    <!-- inputContainer end  -->
+
+    <!-- sambolContainer start  -->
+    <section class="sambolContainer" id="1">
+        <h6>မြင်မက်ခဲ့သောအိမ်မက်ထဲမှအဓိက <span>ဇာတ်ကောင်များ</span> (သို့) <span>အရာဝတ္ထုများ</span> ကိုအက္ခရာစဉ်ဖြင့်ရှာဖွေခြင်း။</h6>
+        <div class="letterContainer row g-2">
+            
+        </div>
+    </section>
+    <!-- sambolContainer end  -->
+
+    <!-- resultContainer start  -->
+
+    <section class="resultContainer" id="2">
+
+        <h6><span class="selectedTitle">(က)</span> နဲ့စသောအိမ်မက်များ</h6>
+
+        <ul class="list-group selectedGroup">
+            
+        </ul>
+
+    </section>
+
+    <!-- resultContainer end  -->
+   </div>
+
+
+    <!-- custom js link  -->
+    <script src="./script.js"></script>
+</body>
+</html>
