@@ -19,6 +19,12 @@
     font-size:100%;
 }
 
+html{
+    overflow-x:hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top:8rem;
+}
+
 body{
     width:100%;
     height:100vh;
@@ -103,7 +109,7 @@ header .colorContainer .color3{
 /* inputContainer  */
 
 .inputContainer{
-    padding-top:13rem;
+    padding-top:8rem;
     display: block;
 }
 
@@ -142,7 +148,7 @@ header .colorContainer .color3{
 .inputContainer .list-group{
     width:70%;
     margin:0 auto;
-    height: 400px;
+    height: 300px;
     overflow: auto;
 }
 
@@ -233,7 +239,7 @@ header .colorContainer .color3{
 }
 
 .resultContainer .list-group{   
-    height: 700px;
+    height: 400px;
     overflow: auto;
 }
 .resultContainer .list-group::-webkit-scrollbar{
@@ -275,6 +281,7 @@ header .colorContainer .color3{
 /* previousButton  */
 .previousButton{
     position:fixed;
+    z-index: 1000;
     top:7rem;
     left:2rem;
     padding:.7rem 1rem;
