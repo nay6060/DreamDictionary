@@ -148,7 +148,7 @@ header .colorContainer .color3{
 .inputContainer .list-group{
     width:70%;
     margin:0 auto;
-    height: 300px;
+    height: 500px;
     overflow: auto;
 }
 
@@ -239,7 +239,7 @@ header .colorContainer .color3{
 }
 
 .resultContainer .list-group{   
-    height: 400px;
+    height: 600px;
     overflow: auto;
 }
 .resultContainer .list-group::-webkit-scrollbar{
@@ -327,5 +327,14 @@ header .colorContainer .color3{
     
     .inputContainer h6, .sambolContainer h6{
         width:90%;
+    }
+
+    .inputContainer .list-group{
+        height: 300px;
+    }
+    
+    .resultContainer .list-group{   
+        height: 400px;
+        overflow: auto;
     }
 }
