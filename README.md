@@ -16,9 +16,9 @@ Summary
 အဲ့ဒီ ခေါင်းစဉ်နဲ့ ပတ်သက်တာများထွက်လာတဲ့ထဲကမှ ရှာလို့အဆင်ပြေအောင် Search Box ထားပြီး ထပ်ရေးထားနိုင်ပါတယ်
 
 
-![Alt text](../img/Dream%20Dictionary%20Mind%20Map.PNG)
+![Alt text](./img/Dream%20Dictionary%20Mind%20Map.PNG)
 
-![Alt text](../img/Screenshot%202023-10-10%20232817.png)
+![Alt text](./img/Screenshot%202023-10-10%20232817.png)
 
-![Alt text](../img/Screenshot%202023-10-10%20232847.png)
+![Alt text](./img/Screenshot%202023-10-10%20232847.png)
 
